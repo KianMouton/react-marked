@@ -2,11 +2,29 @@ import React from 'react';
 import { marked } from 'marked';
 import './App.css';
 
+const startMarkup = `# header 
+ ## header 
+ [link](https://www.nytimes.com/games/wordle/index.html) 
+ \`<p></p>\` 
+ vark
+\`\`\`
+const vark = () => { 
+ if(test1 == test2)
+  return true;
+ }
+ \`\`\` 
+ 1. een
+ 1. twee
+ 1. drie
+ > block quote 
+ **bold** 
+ ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)`
+
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: "",
+      text: startMarkup,
       marked: ""
     };
 
