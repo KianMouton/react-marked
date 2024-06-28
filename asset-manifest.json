@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-marked/static/css/main.e6c13ad2.css",
+    "main.js": "/react-marked/static/js/main.9305fba9.js",
+    "static/js/453.52f0017d.chunk.js": "/react-marked/static/js/453.52f0017d.chunk.js",
+    "index.html": "/react-marked/index.html",
+    "main.e6c13ad2.css.map": "/react-marked/static/css/main.e6c13ad2.css.map",
+    "main.9305fba9.js.map": "/react-marked/static/js/main.9305fba9.js.map",
+    "453.52f0017d.chunk.js.map": "/react-marked/static/js/453.52f0017d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.9305fba9.js"
+  ]
+}
